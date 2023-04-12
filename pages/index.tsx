@@ -15,11 +15,11 @@ export default function Home() {
           Hi, I&apos;m Avinash Sewpersadh
         </h1>
         <h2 className={styles.subtitle}>
-          Engineer
+   
         </h2>
 
         <p className={styles.description}>
-          I&apos;m an engineer with a passion for creating innovative solutions.
+         an engineer with a passion for creating innovative solutions.
         </p>
 
         <div className={styles.links}>
