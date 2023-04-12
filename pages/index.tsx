@@ -25,7 +25,7 @@ export default function Home() {
           Hi, I&apos;m Avinash Sewpersadh
         </h1>
         <h2 className={styles.subtitle}>
-          Engineer
+          
         </h2>
 
         <p className={styles.description}>
