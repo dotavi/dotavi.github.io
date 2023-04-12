@@ -19,13 +19,13 @@ export default function Home() {
         </h2>
 
         <p className={styles.description}>
-          Welcome to my personal website! I&apos;m an engineer with a passion for creating innovative solutions.
+          Welcome! I&apos;m an engineer with a passion for creating innovative solutions.
         </p>
 
         <div className={styles.links}>
-          <a href="https://github.com/your_username" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/your_username" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="mailto:your_email@example.com">Email</a>
+          <a href="https://github.com/dotavi" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://linkedin.com/in/asewpersadh" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:avi.ukzn@gmail.com">Email</a>
         </div>
       </main>
 
