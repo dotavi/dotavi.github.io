@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f3f3f3;
+  background-color: #000;
 }
 
 .main {
@@ -17,24 +17,16 @@
   align-items: center;
 }
 
-.profileImage {
-  margin-bottom: 1rem;
-}
-
-.rounded {
-  border-radius: 50%;
-}
-
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-  color: #0070f3;
+  color: #ffffff;
 }
 
 .subtitle {
   font-size: 2rem;
-  color: #0070f3;
+  color: #ffffff;
   margin: 1rem 0;
 }
 
@@ -42,6 +34,7 @@
   text-align: center;
   line-height: 1.5;
   font-size: 1.5rem;
+  color: #ffffff;
   max-width: 700px;
   margin-top: 1rem;
 }
@@ -53,19 +46,19 @@
 }
 
 .link {
-  color: #0070f3;
+  color: #ffffff;
   margin: 0 1rem;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .link:hover {
-  color: #0051b1;
+  color: #0070f3;
 }
 
 .footer {
   width: 100%;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #333;
   text-align: center;
   padding: 2rem 0;
 }
