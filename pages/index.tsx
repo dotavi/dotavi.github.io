@@ -19,7 +19,7 @@ export default function Home() {
         </h2>
 
         <p className={styles.description}>
-          Welcome! I&apos;m an engineer with a passion for creating innovative solutions.
+          I&apos;m an engineer with a passion for creating innovative solutions.
         </p>
 
         <div className={styles.links}>
