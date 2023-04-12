@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -12,20 +11,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.profileImage}>
-          <Image
-            src="/your_profile_picture.jpg"
-            alt="Avinash Sewpersadh"
-            width={150}
-            height={150}
-            className={styles.rounded}
-          />
-        </div>
         <h1 className={styles.title}>
           Hi, I&apos;m Avinash Sewpersadh
         </h1>
         <h2 className={styles.subtitle}>
-          
+          Engineer
         </h2>
 
         <p className={styles.description}>
