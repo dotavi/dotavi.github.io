@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Avinash Sewpersadh - Engineer</title>
-        <meta name="description" content="Avinash Sewpersadh - Engineer Portfolio" />
+        <title>Avinash Sewpersadh</title>
+        <meta name="description" content="Avinash Sewpersadh - Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -15,7 +15,7 @@ export default function Home() {
           Hi, I&apos;m Avinash Sewpersadh
         </h1>
         <h2 className={styles.subtitle}>
-          Engineer
+          
         </h2>
 
         <p className={styles.description}>
