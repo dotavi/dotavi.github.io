@@ -12,14 +12,14 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hi, I'm Avinash Sewpersadh
+          Hi, I&apos;m Avinash Sewpersadh
         </h1>
         <h2 className={styles.subtitle}>
           Engineer
         </h2>
 
         <p className={styles.description}>
-          Welcome to my personal website! I'm an engineer with a passion for creating innovative solutions.
+          Welcome to my personal website! I&apos;m an engineer with a passion for creating innovative solutions.
         </p>
 
         <div className={styles.links}>
