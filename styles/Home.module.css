@@ -8,6 +8,17 @@
   background-color: #000;
 }
 
+/* Add the fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -15,6 +26,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .title {
