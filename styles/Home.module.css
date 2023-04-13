@@ -26,6 +26,14 @@
   }
 }
 
+/* Add media query for 769px to 990px */
+@media (min-width: 769px) and (max-width: 990px) {
+  .main {
+    text-align: center;
+  }
+}
+
+
 /* Add the fade-in animation */
 @keyframes fadeIn {
   0% {
