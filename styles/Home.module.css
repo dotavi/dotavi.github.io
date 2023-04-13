@@ -6,23 +6,60 @@
   justify-content: center;
   align-items: center;
   padding: 0 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.links a {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+}
+
+.links a:hover {
+  background-color: #e9e9e9;
+}
+
+.footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
 }
 
 /* Add media queries for responsiveness */
 @media (max-width: 768px) {
-  .main {
-    padding: 2rem;
-    text-align: center;
-  }
-
-  .links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .title {
+    font-size: 1.5rem;
   }
 
   .links a {
-    margin-bottom: 1rem;
+    font-size: 1rem;
   }
 }
 
@@ -31,77 +68,4 @@
   .main {
     text-align: center;
   }
-}
-
-
-/* Add the fade-in animation */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  animation: fadeIn 1s ease-in-out;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-  color: #ffffff;
-}
-
-.subtitle {
-  font-size: 2rem;
-  color: #ffffff;
-  margin: 1rem 0;
-}
-
-.description {
-  text-align: center;
-  line-height: 1.5;
-  font-size: 1.5rem;
-  color: #ffffff;
-  max-width: 700px;
-  margin-top: 1rem;
-}
-
-.links {
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-}
-
-.link {
-  color: #ffffff;
-  margin: 0 1rem;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.link:hover {
-  color: #0070f3;
-}
-
-.footer {
-  width: 100%;
-  border-top: 1px solid #333;
-  text-align: center;
-  padding: 2rem 0;
-}
-
-.footer p {
-  font-size: 1rem;
-  color: #888;
 }
