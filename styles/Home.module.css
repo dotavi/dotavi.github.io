@@ -1,12 +1,21 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .container {
-  font-family: 'Poppins', sans-serif;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 0 2rem;
+  justify-content: center;
+  height: 100vh;
   background-color: #000;
+  color: #fff;
+  animation: fadeIn 1s ease-in;
 }
 
 .main {
