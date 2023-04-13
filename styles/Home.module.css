@@ -1,11 +1,12 @@
+/* Apply the Poppins font to the container */
 .container {
+  font-family: 'Poppins', sans-serif;
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  padding: 0 2rem;
 }
 
 /* Add the fade-in animation */
@@ -78,7 +79,4 @@
 .footer p {
   font-size: 1rem;
   color: #888;
-}
-.body {
-  font-family: 'Poppins', sans-serif;
 }
