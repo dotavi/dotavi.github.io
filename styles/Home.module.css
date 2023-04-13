@@ -25,21 +25,26 @@
 .links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
 }
 
 .links a {
-  color: #1e90ff;
-  margin-bottom: 0.5rem;
+  color: #fff;
+  margin: 0 0.5rem;
   font-size: 1.2rem;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
 .links a:hover {
-  text-decoration: underline;
+  color: #1e90ff;
+  text-decoration: none;
 }
+
 
 .footer {
   margin-top: 3rem;
